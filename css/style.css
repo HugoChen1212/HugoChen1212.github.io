@@ -38,7 +38,7 @@ body, html{
 }
 
 .pimg1{
-  background-image:url('../img/home.jpg');
+  background-image:url('../img/homepage.png');
   min-height:100%;
 }
 
@@ -54,7 +54,7 @@ body, html{
 
 .pimg4{
   background-image:url('../img/contact.jpeg');
-  min-height:100%;
+  min-height:500px;
 }
 
 .content{
@@ -81,12 +81,17 @@ body, html{
   padding:20px;
 }
 
-.ptext .border.trans{
+/*.ptext .border .trans{
   background-color:transparent;
+}*/
+
+
+.project{
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+  font-size:20px;
 }
-
-
-
 
 
 footer {
