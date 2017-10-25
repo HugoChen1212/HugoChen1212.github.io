@@ -44,6 +44,10 @@ li a:hover {
   transform: rotate(360deg);
 }
 
+.nav . current {
+  background-color: red;
+}
+
 /*#navbar {
   background-color: rgba(3,3,3,0.7);
   top:0;
