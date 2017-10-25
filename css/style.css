@@ -14,8 +14,7 @@ body, html{
   padding: 0;
   height: 60px;
   overflow: hidden;
-  background-color: #404040;
-  display: flex;
+  background-color: #282e34;
   align-items: center;
   position: relative;
 }
@@ -23,7 +22,7 @@ body, html{
 .navbar li {
   display: block;
   vertical-align: middle;
-  margin-bottom: 0px;
+  margin: 5px;
   float: right;
 }
 
@@ -46,6 +45,12 @@ li a:hover {
 
 .nav . current {
   background-color: red;
+}
+
+#nav-logo{
+ padding-top: 5px;
+ padding-bottom: 5px;
+ padding-left: 20px;
 }
 
 /*#navbar {
