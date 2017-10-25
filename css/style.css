@@ -14,7 +14,7 @@ body, html{
   padding: 0;
   height: 60px;
   overflow: hidden;
-  background-color: #282e34;
+  background-color: rgb(31,31,31);
   align-items: center;
   position: relative;
 }
@@ -43,9 +43,9 @@ li a:hover {
   transform: rotate(360deg);
 }
 
-.nav . current {
+/*.navbar .current {
   background-color: red;
-}
+}*/
 
 #nav-logo{
  padding-top: 4px;
@@ -173,5 +173,11 @@ footer a {
 @media screen and (max-width: 500px) {
   .content p {
     font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a  {
+    font-size: 13px;
   }
 }
