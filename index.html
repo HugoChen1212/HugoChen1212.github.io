@@ -86,13 +86,23 @@
      </div>
 
        <section class="content">
-      <form id="contact-form">
+
+          <form action="https://formspree.io/your@email.com"
+      method="POST">
+    <input type="text" name="name">
+    <input type="email" name="_replyto">
+    <input type="submit" value="Send">
+</form>
+
+
+      <form action="https://formspree.io/hugochen1212@gmail.com"
+      method="POST">
         <lable>Name</lable>
-        <input id="inputName" type="text" name="name">
+        <input type="text" name="name">
         <lable>Email</lable>
-        <input id="inputEmail" type="email" name="email">
-        <lable>Note</lable>
-        <input id="inputNote" type="text" name="note">
+        <input type="email" name="email">
+        <lable>Massage</lable>
+        <input type="text" name="massage">
         <input type="submit">
       </form>
       </section>
