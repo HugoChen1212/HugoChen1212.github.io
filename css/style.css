@@ -9,15 +9,10 @@ body, html{
 }
 
 .navbar {
-  top:0;
   width: 100%;
-  margin: 0;
-  padding: 0;
-  height: 60px;
-  overflow: hidden;
+  opacity: 0.8;
   background-color: rgb(31,31,31);
-  align-items: center;
-  position: relative;
+
 }
 
 .navbar li {
@@ -28,7 +23,7 @@ body, html{
 }
 
 .navbar a {
-  text-align: center;
+  text-align: left;
   display: block;
   padding: 14px 16px;
   color: #d3d3d3;
@@ -43,16 +38,31 @@ li a:hover {
   -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
 }
+#contact{
+  background-color: rgb(31,31,31);
+}
+#contact-text{
+  color: white ;
+}
+/*#contact {
+  justify-content: center;
+  flex-flow:row wrap;
+}*/
+
+/*.nav-item{
+  font-size: 1.4rem;
+  padding-right: 20px;
+}*/
 
 /*.navbar .current {
   background-color: red;
 }*/
 
-#nav-logo{
+/*#nav-logo{
  padding-top: 4px;
  padding-bottom: 5px;
  padding-left: 20px;
-}
+}*/
 
 /*#navbar {
   background-color: rgba(3,3,3,0.7);
@@ -121,7 +131,7 @@ li a:hover {
   text-transform:uppercase;
 }
 
-.ptext .border{
+.ptext .bor{
   background-color:#111;
   color:#fff;
   padding:20px;
@@ -177,8 +187,8 @@ footer a {
   }
 }
 
-@media screen and (max-width: 500px) {
+/*@media screen and (max-width: 500px) {
   .navbar a  {
     font-size: 13px;
   }
-}
+}*/

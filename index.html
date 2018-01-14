@@ -1,24 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Hugo Chen</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="icon" type="image/PGN" href="img/logo.PNG" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="icon" type="image/PGN" href="img/logo.PNG" />
-
-
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Hugo Chen</title>
 </head>
+
 <body>
-  <nav class="navbar">
-       <img id="nav-logo" src="img/logo.PNG" alt="logo" width="55" height ="55">
-       <li> <a class="current" href="#contact">Contact</a> </li>
-       <li> <a class="current" href="#project">Project</a> </li>
-       <li> <a class="current" href="#about">About</a> </li>
-       <li> <a class="current" href="#home">Home</a> </li>
-      </nav>
+  <nav class="navbar navbar-expand-sm fixed-top navbar-dark py-4">
+    <div class="container">
+          <a href="index.html" class="navbar-brand">
+       <img src="img/logo.PNG" alt="logo" class="rounded-circel mt-2 mb-1", id="nav-logo" , width="50" height ="50" >
+        </a>
+        <button class="navbar-toggler" data-toggle="collapse"
+        data-target="#navbarNav"> <span class="navbar-toggler-icon"></span></button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+           <ul class="navbar-nav ml-auto">
+            <li class="nav-item"> <a class="nav-link text-uppercase current" href="#home">Home</a> </li>
+            <li class="nav-item"> <a class="nav-link text-uppercase current" href="#about">About</a> </li>
+            <li class="nav-item"> <a class="nav-link text-uppercase current" href="#project">Project</a> </li>
+             <li class="nav-item"> <a class=" nav-link text-uppercase current" href="#contact">Contact</a> </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <div class="pimg1" id="home">
       <div class="ptext">
-        <span class="border">
+        <span class="bor">
           Hugo Chen
          </span>
        </div>
@@ -31,7 +48,7 @@
 
     <div class="pimg2" id="about" >
       <div class="ptext">
-        <span class="border trans">
+        <span class="bor trans">
           About Me
          </span>
        </div>
@@ -50,7 +67,7 @@
 
      <div class="pimg3" id="project">
       <div class="ptext">
-        <span class="border trans">
+        <span class="bor trans">
           Projects
          </span>
        </div>
@@ -79,13 +96,13 @@
 
     <div class="pimg4" id="contact" >
       <div class="ptext">
-        <span class="border">
+        <span class="bor">
           Contact
          </span>
        </div>
      </div>
 
-       <section class="content">
+      <!--  <section class="content">
       <form action="https://formspree.io/hugochen1212@gmail.com"
       method="POST" id="usrform">
           <lable>Name</lable>
@@ -95,16 +112,59 @@
           <input type="submit">
       </form>
       <textarea name="comment" rows="10" cols="65" form="usrform"> Write a massage to Hugo here </textarea>
+      </section> -->
+
+      <section id="contact" class="py-5">
+        <div class="container justify-content-center">
+          <div class="row text-center">
+            <div class="col-lg-9">
+              <h3 id="contact-text">Get In Touch</h3>
+              <form action="https://formspree.io/hugochen1212@gmail.com"
+      method="POST">
+                <div class="form-group">
+                  <div class="input-group input-group-lg">
+                    <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                    <input type="text" name="name" class="form-control" placeholder="Full Name">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="input-group input-group-lg">
+                    <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                    <input type="email" name="email" class="form-control" placeholder="Email">
+                  </div>
+                </div>
+
+                  <div class="form-group">
+                    <div class="input-group input-group-lg">
+                      <span class="input-group-addon"><i class="fa fa-pencil"></i></span>
+                      <textarea class="form-control" name="comment" placeholder="Message" rows="5"></textarea>
+                    </div>
+                  </div>
+
+                <input type="submit" value="Submit" class="btn-block btn-lg">
+              </form>
+            </div>
+
+          </div>
+        </div>
       </section>
 
-    <footer>
-      <p>San Francisco, CA </p>
-      <a href="mailto:hugochen1212@gmail.com">hugochen1212@gmail.com</a>
-      <a href="https://www.linkedin.com/in/hugo-chen-51ba3a106/">LinkedIn</a>
+
+    <footer id="main-footer" class="py-5">
+      <div class="container">
+          <div class="col-md-12 ml-auto">
+            <p>San Francisco, CA </p>
+            <a href="mailto:hugochen1212@gmail.com">hugochen1212@gmail.com</a>
+            <a href="https://www.linkedin.com/in/hugo-chen-51ba3a106/">LinkedIn</a>
+          </div>
+      </div>
     </footer>
 
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   <script src="./js/application.js"></script>
-
 </body>
 </html>
