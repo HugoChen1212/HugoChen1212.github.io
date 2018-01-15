@@ -173,6 +173,9 @@ footer a {
 
 
 @media screen and (max-width: 500px) {
+  section{
+    background-attachment: initial;
+  }
   .pimg1, .pimg2, .pimg3, .pimg4 {
       background-atachment:scroll;
   }
@@ -182,22 +185,22 @@ footer a {
   .pimg1 {
       background-image:url('../img/homepage.png');
       min-height:350px;
-      background-size: 100% 100%;
+      background-size: auto 749px;
   }
    .pimg2 {
       background-image:url('../img/about.jpeg');
       min-height:300px;
-      background-size: 100% 100%;
+      background-size: auto 749px;
   }
    .pimg3 {
       background-image:url('../img/project.png');
       min-height:200px;
-      background-size: 100% 100%;
+      background-size: auto 749px;
   }
   .pimg4 {
       background-image:url('../img/contact.jpeg');
       min-height:200px;
-      background-size: 100% 100%;
+      background-size: auto 749px;
   }
   .ptext{
       position:absolute;
