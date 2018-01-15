@@ -212,6 +212,11 @@ footer a {
   .pimg1, .pimg2, .pimg3, .pimg4 {
   background-attachment: scroll;
 }
+li a:hover {
+  color: #A926CF;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
 }
 
 
