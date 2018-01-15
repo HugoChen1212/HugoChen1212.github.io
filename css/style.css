@@ -2,7 +2,7 @@ body, html{
   height:100%;
   margin:0;
   font-size:16px;
-  font-family:"Lato",sans-serif;
+  font-family: "Lato",sans-serif;
   font-weigth:400;
   line-height:1.8em;
   color:#666;
@@ -117,7 +117,12 @@ li a:hover {
   padding:50px 80px;
   background-color:#282e34;
   color:#ddd;
+  font-family: monospace;
 }
+
+.content-titel{
+    font-weight: bold;
+  }
 
 .ptext{
   position:absolute;
@@ -136,18 +141,12 @@ li a:hover {
   padding:20px;
 }
 
-/*.ptext .border .trans{
-  background-color:transparent;
-}*/
-
-
 .project{
-  color: red;
+  color: blue;
   font-weight: bold;
   text-decoration: none;
-  font-size:20px;
+  font-size:1.5em;
 }
-
 
 footer {
   color: rgb(146,146,146);
@@ -162,8 +161,6 @@ footer {
 
 footer p {
   display: inline;
-  width: 12%;
-  padding: 20px;
 }
 
 footer a {
@@ -174,56 +171,45 @@ footer a {
   text-decoration: none;
 }
 
-@media(max-width:568px){
+
+@media screen and (max-width: 500px) {
   .pimg1, .pimg2, .pimg3, .pimg4 {
-    background-atachment:scroll;
+      background-atachment:scroll;
   }
-}
-
-@media screen and (max-width: 500px) {
   .content p {
-    font-size: 1.2em;
+      font-size: .9em;
   }
-}
-
-@media screen and (max-width: 500px) {
   .pimg1 {
-    background-image:url('../img/homepage.png');
-    min-height:450px;
-    min-width: 500px;
-  background-size: 500px 500px;
+      background-image:url('../img/homepage.png');
+      min-height:350px;
+      background-size: 500px 500px;
   }
-}
-
-@media screen and (max-width: 500px) {
-  .pimg2 {
-    background-image:url('../img/about.jpeg');
-    min-height:300px;
-    min-width: 100px;
-    background-size: 500px 500px;
+   .pimg2 {
+      background-image:url('../img/about.jpeg');
+      min-height:300px;
+      background-size: 500px 500px;
   }
-}
-
-@media screen and (max-width: 500px) {
-  .pimg3 {
-    background-image:url('../img/project.png');
-    min-height:200px;
-    min-width: 300px;
-    background-size: 500px 500px;
+   .pimg3 {
+      background-image:url('../img/project.png');
+      min-height:200px;
+      background-size: 500px 500px;
   }
-}
-
-@media screen and (max-width: 500px) {
   .pimg4 {
-    background-image:url('../img/contact.jpeg');
-    min-height:200px;
-    min-width: 300px;
-    background-size: 500px 500px;
+      background-image:url('../img/contact.jpeg');
+      min-height:200px;
+      background-size: 500px 500px;
+  }
+  .ptext{
+      position:absolute;
+      top:50%;
+      width:100%;
+      text-align:center;
+      color:#000;
+      font-size:1em;
+      letter-spacing:1px;
+      text-transform:uppercase;
   }
 }
 
-/*@media screen and (max-width: 500px) {
-  .navbar a  {
-    font-size: 13px;
-  }
-}*/
+
+
