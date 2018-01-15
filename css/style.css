@@ -186,6 +186,42 @@ footer a {
   }
 }
 
+@media screen and (max-width: 500px) {
+  .pimg1 {
+    background-image:url('../img/homepage.png');
+    min-height:450px;
+    min-width: 500px;
+  background-size: 500px 500px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .pimg2 {
+    background-image:url('../img/about.jpeg');
+    min-height:300px;
+    min-width: 100px;
+    background-size: 500px 500px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .pimg3 {
+    background-image:url('../img/project.png');
+    min-height:200px;
+    min-width: 300px;
+    background-size: 500px 500px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .pimg4 {
+    background-image:url('../img/contact.jpeg');
+    min-height:200px;
+    min-width: 300px;
+    background-size: 500px 500px;
+  }
+}
+
 /*@media screen and (max-width: 500px) {
   .navbar a  {
     font-size: 13px;
