@@ -2,7 +2,7 @@ body, html{
   height:100%;
   margin:0;
   font-size:16px;
-  font-family: "Lato",sans-serif;
+  font-family: 'Arimo', sans-serif;
   font-weigth:400;
   line-height:1.8em;
   color:#666;
@@ -94,7 +94,7 @@ li a:hover {
 
 .pimg1{
   background-image:url('../img/me.jpg');
-  min-height:600px;
+  min-height:650px;
 }
 
 .pimg2{
@@ -114,7 +114,7 @@ li a:hover {
 
 .content{
   text-align:center;
-  padding:50px 80px;
+  padding:150px 80px;
   background-color:#282e34;
   color:#ddd;
   font-family: monospace;
@@ -122,6 +122,8 @@ li a:hover {
 
 .content-titel{
     font-weight: bold;
+    padding-bottom: 15px;
+    padding-top: 15px;
   }
 
 .ptext{
@@ -141,10 +143,17 @@ li a:hover {
   padding:20px;
 }
 
+section p {
+  margin-left: 150px;
+  margin-right: 150px;
+  line-height: 2;
+  margin-bottom: 0px;
+}
+
 .project{
-  color: blue;
+  color: white;
   font-weight: bold;
-  text-decoration: none;
+  padding-bottom: 15px;
   font-size:1.5em;
 }
 
@@ -153,13 +162,15 @@ footer {
   text-align: center;
   width: 100%;
   text-transform: uppercase;
-  padding-bottom: 65px;
-  padding-top: 65px;
+  padding-bottom: 25px;
+  padding-top: 25px;
   background-color: rgb(31,31,31);
 }
 
 footer p {
   display: inline;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 footer a {
