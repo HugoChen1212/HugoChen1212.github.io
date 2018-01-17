@@ -144,8 +144,8 @@ li a:hover {
 }
 
 section p {
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 50px;
+  margin-right: 50px;
   line-height: 2;
   margin-bottom: 0px;
 }
@@ -227,6 +227,7 @@ li a:hover {
   -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
 }
+
 }
 
 
