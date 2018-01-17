@@ -93,8 +93,8 @@ li a:hover {
 }
 
 .pimg1{
-  background-image:url('../img/homepage.png');
-  min-height:100%;
+  background-image:url('../img/me.jpg');
+  min-height:550px;
 }
 
 .pimg2{
@@ -183,7 +183,7 @@ footer a {
       font-size: .9em;
   }
   .pimg1 {
-      background-image:url('../img/homepage.png') auto 100px;
+      background-image:url('../img/me.jpg') auto 100px;
       min-height:350px;
   }
    .pimg2 {
