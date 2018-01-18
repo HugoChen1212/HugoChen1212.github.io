@@ -117,7 +117,7 @@ li a:hover {
   padding:15px 90px;
   background-color:#282e34;
   color:#ddd;
-  font-family: monospace;
+  font-family: 'Arimo', sans-serif;
 }
 
 .content-titel{
@@ -151,10 +151,12 @@ section p {
 }
 
 .project{
-  color: white;
   font-weight: bold;
   padding-bottom: 15px;
   font-size:1.5em;
+}
+.project a{
+  color: white;
 }
 
 footer {
