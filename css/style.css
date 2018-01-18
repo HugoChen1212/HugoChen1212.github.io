@@ -34,8 +34,8 @@ body, html{
 
 li a:hover {
   color: #A926CF;
-  -webkit-transform: rotate(360deg);
-  transform: rotate(360deg);
+  /*-webkit-transform: rotate(360deg);
+  transform: rotate(360deg);*/
 }
 #contact{
   background-color: rgb(31,31,31);
