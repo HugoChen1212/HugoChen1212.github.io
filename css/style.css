@@ -156,11 +156,6 @@ section p {
   margin-bottom: 0px;
 }
 
-.project{
-  font-weight: bold;
-  padding-bottom: 15px;
-  font-size:1.5em;
-}
 .project a{
   color: white;
 }
@@ -190,59 +185,43 @@ footer a {
 }
 
 
-@media screen and (max-width: 500px) {
-  section p {
-  margin-left: 0px;
-  margin-right: 0px;
-}
-  section{
-    background-attachment: initial;
-  }
-  .pimg1, .pimg2, .pimg3, .pimg4 {
-      background-atachment:scroll;
-  }
-  .content p {
-      font-size: .9em;
-  }
-  .pimg1 {
-      background-image:url('../img/me.jpg') auto 100px;
-      min-height:350px;
-  }
-   .pimg2 {
-      background-image:url('../img/about.jpeg') auto 100px;
-      min-height:300px;
-  }
-   .pimg3 {
-      background-image:url('../img/project.png') auto 100px;
-      min-height:200px;
-  }
-  .pimg4 {
-      background-image:url('../img/contact.jpeg') 0 0;
-      min-height:200px;
-      background-size: cover;
-  }
-  .ptext{
-      position:absolute;
-      top:50%;
-      width:100%;
-      text-align:center;
-      color:#000;
-      font-size:1em;
-      letter-spacing:1px;
-      text-transform:uppercase;
-  }
-  .pimg1, .pimg2, .pimg3, .pimg4 {
-  background-attachment: scroll;
-}
-li a:hover {
-  color: #A926CF;
-  -webkit-transform: rotate(0deg);
-  transform: rotate(0deg);
+
+
+
+
+/* projects
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+ #project-container {
+  background-color: #282e34;
+ }
+.thumbnail{
+  border-style: solid;
+  border-color: white;
+  height: 650px;
+  box-shadow: 5px 10px 15px #888888;
+  margin: 20px;
+  background-color: #282e34;
+  margin-bottom: 40px;
 }
 
+.project{
+  font-weight: bold;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size:1.5em;
+  text-align: center;
+}
+
+.caption {
+  color: white;
+  padding: 10px;
+  font-family: 'Arimo', sans-serif;
 }
 
 
+
+/* Timeline
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 #timeline-container {
   background: #282e34;
@@ -338,7 +317,7 @@ time {
 }
 
 .timeline ul li.in-view::after {
-  background: #F45B69;
+  background: white;
 }
 
 .timeline ul li div {
@@ -364,8 +343,24 @@ time {
 
 /* GENERAL MEDIA QUERIES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+ @media screen and (max-width: 1400px) {
+  .thumbnail{
+  height: 750px;
+  }
 
-@media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1300px) {
+  .thumbnail{
+  height: 800px;
+  }
+
+
+   @media screen and (max-width: 1150px) {
+  .thumbnail{
+    height: 900px;
+    }
+  }
+
+    @media screen and (max-width: 1000px) {
   .timeline ul li div {
     width: 300px;
   }
@@ -377,9 +372,33 @@ time {
   margin-left: 0px;
   margin-right: 0px;
 }
+.thumbnail{
+  height: 950px;
+  }
 }
 
-@media screen and (max-width: 750px) {
+ @media screen and (max-width: 850px) {
+  .thumbnail{
+  height: 1000px;
+  }
+
+
+  @media screen and (max-width: 800px) {
+  .thumbnail{
+  height: 1050px;
+  }
+  }
+
+ @media screen and (max-width: 760px) {
+  .thumbnail{
+  height: 800px;
+  }
+  }
+
+  @media screen and (max-width: 750px) {
+    .thumbnail{
+  height: 750px;
+  }
   .timeline ul li {
     margin-left: 20px;
   }
@@ -394,4 +413,82 @@ time {
     border-width: 8px 16px 8px 0;
     border-color: transparent white transparent transparent;
   }
+
 }
+
+@media screen and (max-width: 600px) {
+    .thumbnail{
+  height: 750px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+
+.thumbnail{
+  height: 650px;
+  }
+
+  section p {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+  section{
+    background-attachment: initial;
+  }
+  .pimg1, .pimg2, .pimg3, .pimg4 {
+      background-atachment:scroll;
+  }
+  .content p {
+      font-size: .9em;
+  }
+  .pimg1 {
+      background-image:url('../img/me.jpg') auto 100px;
+      min-height:350px;
+  }
+   .pimg2 {
+      background-image:url('../img/about.jpeg') auto 100px;
+      min-height:300px;
+  }
+   .pimg3 {
+      background-image:url('../img/project.png') auto 100px;
+      min-height:200px;
+  }
+  .pimg4 {
+      background-image:url('../img/contact.jpeg') 0 0;
+      min-height:200px;
+      background-size: cover;
+  }
+  .ptext{
+      position:absolute;
+      top:50%;
+      width:100%;
+      text-align:center;
+      color:#000;
+      font-size:1em;
+      letter-spacing:1px;
+      text-transform:uppercase;
+  }
+  .pimg1, .pimg2, .pimg3, .pimg4 {
+  background-attachment: scroll;
+}
+li a:hover {
+  color: #A926CF;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
