@@ -9,9 +9,11 @@ body, html{
 }
 
 #wrapper{
-  width 100%;
-  max-width:1466px;
-  margin: 0 auto;
+  /*width 100%;*/
+  /*max-width:1466px;
+  margin: 0 auto;*/
+  height:100%;
+  margin:0;
 }
 
 .navbar {
@@ -193,6 +195,8 @@ footer a {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
  #project-container {
   background-color: #282e34;
+  height:100%;
+  margin:0;
  }
 .thumbnail{
   border-style: solid;
