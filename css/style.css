@@ -8,14 +8,6 @@ body, html{
   color:#666;
 }
 
-#wrapper{
-  /*width 100%;*/
-  /*max-width:1466px;
-  margin: 0 auto;*/
-  height:100%;
-  margin:0;
-}
-
 .navbar {
   width: 100%;
   opacity: 0.8;
@@ -195,8 +187,9 @@ footer a {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
  #project-container {
   background-color: #282e34;
-  height:100%;
   margin:0;
+  width 100%;
+
  }
 .thumbnail{
   border-style: solid;
