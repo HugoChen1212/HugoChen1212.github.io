@@ -94,7 +94,7 @@ li a:hover {
 
 .pimg1{
   background-image:url('../img/me.jpg');
-  min-height:650px;
+  min-height:700px;
 }
 
 .pimg2{
@@ -112,6 +112,13 @@ li a:hover {
   min-height:500px;
 }
 
+
+.pimg-overlay{
+  position: absolute;
+  background: rgba(0,0,0,0.5);
+   width:100%;
+   height: 100%;
+}
 .content{
   text-align:center;
   padding:15px 20px;
@@ -195,6 +202,7 @@ footer a {
   border-style: solid;
   border-color: white;
   height: 650px;
+  box-sizing: border-box;
   box-shadow: 5px 10px 15px #888888;
   margin: 20px;
   background-color: #282e34;
