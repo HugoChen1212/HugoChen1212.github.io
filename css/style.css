@@ -43,45 +43,6 @@ li a:hover {
 #contact-text{
   color: white ;
 }
-/*#contact {
-  justify-content: center;
-  flex-flow:row wrap;
-}*/
-
-/*.nav-item{
-  font-size: 1.4rem;
-  padding-right: 20px;
-}*/
-
-/*.navbar .current {
-  background-color: red;
-}*/
-
-/*#nav-logo{
- padding-top: 4px;
- padding-bottom: 5px;
- padding-left: 20px;
-}*/
-
-/*#navbar {
-  background-color: rgba(3,3,3,0.7);
-  top:0;
-  width: 100%;
-  position: absolute;
-}
-
-#navbar a {
-  float: right;
-  display: block;
-  color: #f2f2f2;
-  padding: 15px 22px;
-  text-decoration: none;
-  font-size: 20px;
-}
-
-#navbar a:hover {
-  color: rgb(67,74,82);
-}*/
 
 .pimg1, .pimg2, .pimg3, .pimg4 {
   position:relative;
@@ -99,7 +60,7 @@ li a:hover {
 
 .pimg2{
   background-image:url('../img/about.jpeg');
-  min-height:300px;
+  min-height:400px;
 }
 
 .pimg3{
