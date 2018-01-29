@@ -3,8 +3,9 @@
 body, html{
   height:100%;
   margin:0;
-  font-family: 'Arimo', sans-serif;
+  font-family: 'Trirong', serif;
   line-height:1.8em;
+  font-size: large;
   /*overflow-x: hidden;*/
 }
 
@@ -83,7 +84,8 @@ li a:hover {
   padding:15px 20px;
   background-color:#282e34;
   color:white;
-  font-family: 'Arimo', sans-serif;
+ /* font-family: 'Arimo', sans-serif;*/
+  /*font-size: medium;*/
 }
 
 .content-titel{
@@ -138,6 +140,7 @@ footer p {
   display: inline;
   margin-left: 15px;
   margin-right: 15px;
+  /*font-family: 'Arimo', sans-serif;*/
 }
 
 footer a {
@@ -189,7 +192,7 @@ footer a {
 .caption {
   color: white;
   padding: 15px;
-  font-family: 'Arimo', sans-serif;
+  /*font-family: 'Arimo', sans-serif;*/
 }
 
 
@@ -361,9 +364,7 @@ time {
   .pimg1, .pimg2, .pimg3, .pimg4 {
       background-atachment:scroll;
   }
-  .content p {
-  font-size: .9em;
-  }
+
   .pimg1 {
       background-image:url('../img/me.jpg') auto 100px;
       min-height:350px;
