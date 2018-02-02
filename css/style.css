@@ -166,9 +166,12 @@ footer a {
  #project-container {
   background-color: #282e34;
   margin:0;
+   /*display: flex;
+  justify-content: center;*/
  }
  .project-margen {
   margin: 5px;
+
  }
 .thumbnail{
   border-style: double;
