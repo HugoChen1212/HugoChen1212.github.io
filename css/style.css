@@ -133,7 +133,7 @@ footer {
   text-transform: uppercase;
   padding-bottom: 25px;
   padding-top: 25px;
-  background-color: rgb(31,31,31);
+  background-color: #1c1c1c;
 }
 
 footer p {
@@ -166,7 +166,9 @@ footer a {
  #project-container {
   background-color: #282e34;
   margin:0;
-  width 100%;
+ }
+ .project-margen {
+  margin: 5px;
  }
 .thumbnail{
   border-style: double;
@@ -316,6 +318,10 @@ time {
   visibility: visible;
   opacity: 1;
 }
+
+
+
+
 
 /* Media
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
