@@ -113,15 +113,14 @@ h4{
   width:100%;
   text-align:center;
   color:#000;
-  font-size:27px;
+  /*font-size:27px;*/
   letter-spacing:8px;
   text-transform:uppercase;
 }
 
 .ptext .bor{
-  background-color:#111;
   color:#fff;
-  padding:20px;
+  font-size: x-large;
 }
 
 section p {
@@ -441,7 +440,7 @@ h4{
 }
 
 #skill-hl{
-  font-size: large;
+  font-size: x-large !important;
 }
 
 .time-text{
