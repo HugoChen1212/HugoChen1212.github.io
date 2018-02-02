@@ -94,6 +94,16 @@ li a:hover {
     padding-top: 15px;
   }
 
+  .skill-progress{
+    width: 60%;
+    margin: auto;
+  }
+h4{
+  text-align:left;
+  font-size: x-large;
+}
+
+
 .ptext{
   position:absolute;
   top:50%;
@@ -166,9 +176,12 @@ footer a {
  #project-container {
   background-color: #282e34;
   margin:0;
+   /*display: flex;
+  justify-content: center;*/
  }
  .project-margen {
   margin: 5px;
+
  }
 .thumbnail{
   border-style: double;
@@ -338,6 +351,12 @@ time {
   margin-left: 0px;
   margin-right: 0px;
 }
+h4{
+  font-size: larger;
+}
+#skill-hl{
+  font-size: x-larger;
+}
 }
 
   @media screen and (max-width: 750px) {
@@ -355,6 +374,8 @@ time {
     border-width: 8px 16px 8px 0;
     border-color: transparent white transparent transparent;
   }
+
+
 
 }
 
@@ -405,6 +426,13 @@ li a:hover {
   color: #A926CF;
   -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+}
+h4{
+  font-size: medium;
+}
+
+#skill-hl{
+  font-size: large;
 }
 
 }
