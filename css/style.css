@@ -93,7 +93,10 @@ li a:hover {
     padding-bottom: 4px;
     padding-top: 15px;
   }
-
+  .skill-content{
+    margin-left: 0%;
+    margin-right: 0%;
+ }
   .skill-progress{
     width: 60%;
     margin: auto;
@@ -357,6 +360,10 @@ h4{
 #skill-hl{
   font-size: x-larger;
 }
+
+.time-text{
+  font-size: large;
+}
 }
 
   @media screen and (max-width: 750px) {
@@ -375,15 +382,19 @@ h4{
     border-color: transparent white transparent transparent;
   }
 
+  body, html{
+    line-height:1.6em;
+    font-size: medium;
 
+  }
 
 }
 
 @media screen and (max-width: 500px) {
 
   section p {
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-left: 0%;
+  margin-right: 0%;
 }
   section{
     background-attachment: initial;
@@ -435,6 +446,15 @@ h4{
   font-size: large;
 }
 
+.time-text{
+  font-size: medium;
+}
+
+body, html{
+  line-height:1.6em;
+  font-size: medium;
+
+}
 }
 
 
