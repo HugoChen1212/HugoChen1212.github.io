@@ -3,7 +3,8 @@
 body, html{
   height:100%;
   margin:0;
-  font-family: 'Trirong', serif;
+ /* font-family: 'Trirong', serif;*/
+  font-family: Arial,sans-serif;
   line-height:1.8em;
   font-size: large;
   /*overflow-x: hidden;*/
