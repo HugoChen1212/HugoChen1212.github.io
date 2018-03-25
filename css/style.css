@@ -41,6 +41,11 @@ li a:hover {
   /*-webkit-transform: rotate(360deg);
   transform: rotate(360deg);*/
 }
+.text-icon{
+  font-weight: bold;
+  font-family: 'Shrikhand', cursive;
+  font-size: x-large;
+}
 
 /* background image
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
