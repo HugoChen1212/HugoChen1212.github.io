@@ -3,7 +3,6 @@
 body, html{
   height:100%;
   margin:0;
- /* font-family: 'Trirong', serif;*/
   font-family: Arial,sans-serif;
   line-height:1.8em;
   font-size: large;
@@ -90,8 +89,6 @@ li a:hover {
   padding:15px 20px;
   background-color:#282e34;
   color:white;
- /* font-family: 'Arimo', sans-serif;*/
-  /*font-size: medium;*/
 }
 
 .content-titel{
@@ -99,14 +96,12 @@ li a:hover {
     padding-bottom: 4px;
     padding-top: 15px;
   }
-  .skill-content{
-    margin-left: 0%;
-    margin-right: 0%;
- }
+
   .skill-progress{
     width: 60%;
     margin: auto;
   }
+
 h4{
   text-align:left;
   font-size: x-large;
